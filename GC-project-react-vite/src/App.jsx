@@ -1,4 +1,14 @@
-import { useState } from 'react'
+// rafce, automatically create
+
+import React from "react";
+
+const App = () => {
+  return <div>App</div>;
+};
+
+export default App;
+
+/* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -32,3 +42,4 @@ function App() {
 }
 
 export default App
+ */
