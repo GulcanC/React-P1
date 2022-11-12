@@ -2,7 +2,18 @@
 import React from "react";
 // import styles from style.js
 import styles from "./style";
-import Navbar from "./componenets/Navbar";
+import {
+  Navbar,
+  Billing,
+  CardDeal,
+  Business,
+  Clients,
+  CTA,
+  Stats,
+  Footer,
+  Testimonials,
+  Hero,
+} from "./componenets";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
