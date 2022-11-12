@@ -2,6 +2,7 @@
 import React from "react";
 // import styles from style.js
 import styles from "./style";
+import Navbar from "./componenets/Navbar";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
