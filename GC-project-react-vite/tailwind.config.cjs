@@ -4,9 +4,10 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}",
+    "./index.css",
+    "./src/**/*.{js,jsx, css}",
     "./pages/**/*.{html,js}",
-    "./components/**/*.{html, js, jsx}",
+    "./components/**/*.{html, js, jsx, css}",
   ],
   mode: "jit",
   theme: {

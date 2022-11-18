@@ -6,21 +6,30 @@ const styles = {
   paragraph:
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
-  flexJustify: "flex justify-between items-center",
+  flexJustify: "flex flex-row justify-between items-center",
   flexJustify2: "flex justify-between",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   flexEnd: "flex justify-end items-center gap-3 flex-1",
+  flexRowCol: "flex md:flex-row flex-col",
+  flexrowcenter: "flex flex-row items-center",
+  flexcol: "flex-1, flex-col",
+  paddinglg: "xl:px-0",
+  wfull: "w-full",
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
-
+  py6: "py-[6px]",
+  px4: "px-4",
+  mb2: "mb-2",
+  rounded10: "rounded-[10px]",
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
   mr0: "mr-0",
   mr10: "mr-10",
   mb4: "mb-4",
+  icon1: "w-[32px] h-[32px]",
   // for large secreens until small 768px, Heihgt is 5rem, after 768px 15rem
   // bu onemli eger buyuk ekransa 768px e kadar, 5re, 768px den kucukse 15rem
   pytoggle: "sm:h-[5rem] h-[15rem]",
@@ -40,6 +49,8 @@ const styles = {
 
   ul: "list-none flex justify-end items-center flex-1 flex-col",
   ulli: "font-poppins font-normal text-[16px]",
+  bgclip:
+    "bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-white",
 };
 
 export const layout = {
