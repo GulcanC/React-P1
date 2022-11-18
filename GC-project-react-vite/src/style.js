@@ -7,6 +7,7 @@ const styles = {
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
   flexJustify: "flex justify-between items-center",
+  flexJustify2: "flex justify-between",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   flexEnd: "flex justify-end items-center gap-3 flex-1",
@@ -17,6 +18,13 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+  mr0: "mr-0",
+  mr10: "mr-10",
+  mb4: "mb-4",
+  // for large secreens until small 768px, Heihgt is 5rem, after 768px 15rem
+  // bu onemli eger buyuk ekransa 768px e kadar, 5re, 768px den kucukse 15rem
+  pytoggle: "sm:h-[5rem] h-[15rem]",
+  mtop: "sm:mt-[1rem] mt-[-7rem]",
 
   // if the size is smaller than 768px, hide the navbar list items
   // if I write sm:hidden flex, it will hide them until 768px, but it will show them for screen taht smaller than 768px
@@ -27,6 +35,11 @@ const styles = {
   logoSize: "w-[124px] h-[32px]",
   toggleSize: "w-[28px] h-[28px] ",
   cursor: "cursor-pointer",
+
+  menu: "p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar",
+
+  ul: "list-none flex justify-end items-center flex-1 flex-col",
+  ulli: "font-poppins font-normal text-[16px]",
 };
 
 export const layout = {

@@ -1,7 +1,4 @@
 import React from "react";
 
-const Hero = () => {
-  return <div>Hero</div>;
-};
-
+const Hero = () => <div>Hero</div>;
 export default Hero;
