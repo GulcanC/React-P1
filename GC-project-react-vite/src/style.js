@@ -67,6 +67,7 @@ const styles = {
   pinkGradient: "absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient",
   whiteGradient: "absolute z-[1] w-[80%] h-[80%] top-0 white__gradient",
   sshidden: "ss:hidden",
+  smhidden: "sm:block hidden",
 
   // GETSTARTED
   getStarted:
@@ -80,6 +81,9 @@ const styles = {
   statSectionDiv: "flex-1 ",
   statP:
     "font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3",
+
+  //BUSINESS
+  businessP: "max-w-[470px] mt-5",
 };
 
 export const layout = {
