@@ -16,15 +16,29 @@ const Hero = () => (
         </p>
       </div>
       <div className={`${styles.flexJustify} ${styles.wfull}`}>
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white">
-          The Next <br className="sm:block hidden" />{" "}
-          <span className={`${styles.bgclip}`}>Generation</span> Payment Method
+        <h1 className={`${styles.heroH1}`}>
+          The Next <br className={`${styles.heroH1br}`} />{" "}
+          <span className={`${styles.bgclip}`}>Generation</span>
         </h1>
-        <div className="ss:flex hidden md:mr-4 mr-0">
+        <div className={`${styles.circle}`}>
           <GetStarted />
         </div>
       </div>
+
+      <h1 className={`${styles.heroH12}`}>Payment Method.</h1>
+      <p className={`${styles.heroH1p}`}>
+        Our team of experts uses a methodology to identify the credit cards most
+        likely to fit your needs. We examine annual percentage rates, annual
+        fees.
+      </p>
     </div>
+    <div>
+      <img src={robot} alt="robot" className={`${styles.heroImgRobot}`} />
+      <div className={`${styles.pinkGradient}`}></div>
+      <div className={`${styles.whiteGradient}`}></div>
+      <div className={`${styles.pinkGradient}`}></div>
+    </div>
+    <div className={`${styles.sshidden} ${styles.flexCenter}`}></div>
   </section>
 );
 export default Hero;
