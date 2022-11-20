@@ -92,7 +92,6 @@ const styles = {
     "py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none",
 
   // FEATURECARD
-
   featureCardDiv: "flex flex-row p-6 rounded-[20px] feature-card",
   featureCardImg: "w-[50%] h-[50%] object-contain",
   featureCardDiv2: "w-[64px] h-[64px] rounded-full bg-dimBlue",
@@ -101,6 +100,18 @@ const styles = {
     "font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1",
   featureCardP:
     "font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1",
+
+  // BILLING
+  billingImg: "w-[100%] h-[100%] relative z-[5]",
+  billingDiv1:
+    "absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient",
+  billingDiv2:
+    "absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient",
+  billingDiv3: "flex flex-row flex-wrap sm:mt-10 mt-6",
+  billingBr: "sm:block hidden",
+  billingP: "max-w-[470px] mt-5",
+  billingImg1: "w-[128px] h-[42px] object-contain mr-5 cursor-pointer",
+  billingImg2: "w-[128px] h-[42px] object-contain cursor-pointer",
 };
 
 export const layout = {
