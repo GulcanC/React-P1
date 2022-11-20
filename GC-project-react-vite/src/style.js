@@ -89,7 +89,7 @@ const styles = {
 
   //BUTTON
   button:
-    "py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none",
+    "py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded",
 
   // FEATURECARD
   featureCardDiv: "flex flex-row p-6 rounded-[20px] feature-card",
@@ -112,6 +112,10 @@ const styles = {
   billingP: "max-w-[470px] mt-5",
   billingImg1: "w-[128px] h-[42px] object-contain mr-5 cursor-pointer",
   billingImg2: "w-[128px] h-[42px] object-contain cursor-pointer",
+
+  // CARDDEAL
+  cardDealP: "max-w-[470px] mt-5",
+  cardDealImg: "w-[100%] h-[100%]",
 };
 
 export const layout = {
