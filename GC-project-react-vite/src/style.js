@@ -34,6 +34,7 @@ const styles = {
   mr10: "mr-10",
   mb4: "mb-4",
   m3: "m-3",
+  mt10: "mt-[15px]",
   icon1: "w-[32px] h-[32px]",
   // for large secreens until small 768px, Heihgt is 5rem, after 768px 15rem
   // bu onemli eger buyuk ekransa 768px e kadar, 5re, 768px den kucukse 15rem
@@ -84,6 +85,22 @@ const styles = {
 
   //BUSINESS
   businessP: "max-w-[470px] mt-5",
+  businessFlexCol: "flex-col",
+
+  //BUTTON
+  button:
+    "py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none",
+
+  // FEATURECARD
+
+  featureCardDiv: "flex flex-row p-6 rounded-[20px] feature-card",
+  featureCardImg: "w-[50%] h-[50%] object-contain",
+  featureCardDiv2: "w-[64px] h-[64px] rounded-full bg-dimBlue",
+  featureCardDiv3: "flex-1 flex flex-col ml-3",
+  featureCardH4:
+    "font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1",
+  featureCardP:
+    "font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1",
 };
 
 export const layout = {
