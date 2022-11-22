@@ -116,6 +116,14 @@ const styles = {
   // CARDDEAL
   cardDealP: "max-w-[470px] mt-5",
   cardDealImg: "w-[100%] h-[100%]",
+
+  // FEEDBACK
+  testimonialsSection: "flex-col relative",
+  testimonialsDiv: "md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]",
+  testimonialsDiv2: "w-full md:mt-0 mt-6",
+  testimonialsDiv3:
+    "flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]",
+  testimonialsP: "text-left max-w-[450px]",
 };
 
 export const layout = {
