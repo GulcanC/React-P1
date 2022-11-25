@@ -1,33 +1,32 @@
 const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
+  // HEADING AND PARAGRAPH
   heading2:
     "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   heading4:
     "font-poppins font-semibold xs:text-[40px] text-[30px] text-white xs:leading-[53px] leading-[43px]",
   paragraph:
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
-
+  paragraph2:
+    "font-poppins font-normal text-white text-[18px] leading-[32px] my-10",
+  // FLEX
   flexJustify: "flex flex-row justify-between items-center",
   flexJustify2: "flex justify-between",
+  flexJustifyCol: "flex justify-between flex-col",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   justifyStart: "flex justify-start items-center flex-row",
   flexEnd: "flex justify-end items-center gap-3 flex-1",
   flexRowCol: "flex md:flex-row flex-col",
   flexrowcenter: "flex flex-row items-center",
-  flexcol: "flex-1, flex-col",
+  flexcol: "flex-1 flex-col",
+  flexcol1: "flex flex-col",
   flex1: "flex-1",
-  paddinglg: "xl:px-0",
-  wfull: "w-full",
+  flexrow: "flex flex-row",
 
-  paddingX: "sm:px-16 px-6",
-  paddingY: "sm:py-16 py-6",
-  padding: "sm:px-16 px-6 sm:py-12 py-4",
-  py6: "py-[6px]",
-  px4: "px-4",
+  // MARGIN
   mb2: "mb-2",
-  rounded10: "rounded-[10px]",
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
   mr0: "mr-0",
@@ -35,12 +34,22 @@ const styles = {
   mb4: "mb-4",
   m3: "m-3",
   mt10: "mt-[15px]",
+  mtop: "sm:mt-[1rem] mt-[-7rem]",
+
+  // PADDING
+  paddinglg: "xl:px-0",
+  wfull: "w-full",
+  paddingX: "sm:px-16 px-6",
+  paddingY: "sm:py-16 py-6",
+  padding: "sm:px-16 px-6 sm:py-12 py-4",
+  py6: "py-[6px]",
+  px4: "px-4",
+
+  rounded10: "rounded-[10px]",
   icon1: "w-[32px] h-[32px]",
   // for large secreens until small 768px, Heihgt is 5rem, after 768px 15rem
   // bu onemli eger buyuk ekransa 768px e kadar, 5re, 768px den kucukse 15rem
   pytoggle: "sm:h-[5rem] h-[15rem]",
-  mtop: "sm:mt-[1rem] mt-[-7rem]",
-
   // if the size is smaller than 768px, hide the navbar list items
   // if I write sm:hidden flex, it will hide them until 768px, but it will show them for screen taht smaller than 768px
   smallHidden: "sm:flex hidden",
@@ -117,13 +126,26 @@ const styles = {
   cardDealP: "max-w-[470px] mt-5",
   cardDealImg: "w-[100%] h-[100%]",
 
-  // FEEDBACK
+  // TESTIMONIALS
   testimonialsSection: "flex-col relative",
   testimonialsDiv: "md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]",
+  testimonialsDiv1:
+    "absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient",
   testimonialsDiv2: "w-full md:mt-0 mt-6",
   testimonialsDiv3:
     "flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]",
   testimonialsP: "text-left max-w-[450px]",
+
+  // FEEDBACK
+  feedbackCardDiv1:
+    "px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card",
+  feedbackCardImg: "w-[42px] h-[27px] object-contain",
+  feedbackCardDiv2: "w-[48px] h-[48px] rounded-full",
+  feedbackCardDiv3: "ml-4",
+  feedbackCardH4:
+    "font-poppins font-semibold text-[20px] leading-[32px] text-white",
+  feedbackCardP:
+    "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite",
 };
 
 export const layout = {
