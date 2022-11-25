@@ -35,6 +35,7 @@ const styles = {
   m3: "m-3",
   mt10: "mt-[15px]",
   mtop: "sm:mt-[1rem] mt-[-7rem]",
+  my4:"my-4",
 
   // PADDING
   paddinglg: "xl:px-0",
@@ -146,6 +147,12 @@ const styles = {
     "font-poppins font-semibold text-[20px] leading-[32px] text-white",
   feedbackCardP:
     "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite",
+
+    // CLIENTS
+    clientsDiv1:'flex-wrap w-full',
+    clientsDiv2:'flex-1 sm:min-w-[192px] min-w-[120px]',
+    clientImg:'sm:w-[192px] w-[100px] object-contain',
+
 };
 
 export const layout = {
