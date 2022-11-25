@@ -12,6 +12,7 @@ const styles = {
     "font-poppins font-normal text-white text-[18px] leading-[32px] my-10",
   // FLEX
   flexJustify: "flex flex-row justify-between items-center",
+  flexJustifyColCenter: "flex flex-col justify-between items-center",
   flexJustify2: "flex justify-between",
   flexJustifyCol: "flex justify-between flex-col",
   flexCenter: "flex justify-center items-center",
@@ -24,18 +25,20 @@ const styles = {
   flexcol1: "flex flex-col flex-1 ",
   flex1: "flex-1",
   flexrow: "flex flex-row",
+  flexCol: "flex flex-col",
 
   // MARGIN
   mb2: "mb-2",
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
   mr0: "mr-0",
+  mr6: "mr-6",
   mr10: "mr-10",
   mb4: "mb-4",
   m3: "m-3",
   mt10: "mt-[15px]",
   mtop: "sm:mt-[1rem] mt-[-7rem]",
-  my4:"my-4",
+  my4: "my-4",
 
   // PADDING
   paddinglg: "xl:px-0",
@@ -148,16 +151,30 @@ const styles = {
   feedbackCardP:
     "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite",
 
-    // CLIENTS
-    clientsDiv1:'flex-wrap w-full',
-    clientsDiv2:'flex-1 sm:min-w-[192px] min-w-[120px]',
-    clientImg:'sm:w-[192px] w-[100px] object-contain',
+  // CLIENTS
+  clientsDiv1: 'flex-wrap w-full',
+  clientsDiv2: 'flex-1 sm:min-w-[192px] min-w-[120px]',
+  clientImg: 'sm:w-[192px] w-[100px] object-contain',
 
-    // CTA
-   sectionCTA: 'sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow ',
-   pCTA:'max-w-[470px] mt-5',
-   divCTA :'sm:ml-10 ml-0 sm:mt-0 mt-10',
+  // CTA
+  sectionCTA: 'sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow ',
+  pCTA: 'max-w-[470px] mt-5',
+  divCTA: 'sm:ml-10 ml-0 sm:mt-0 mt-10',
 
+  // FOOTER
+  footer:'w-full md:flex-row pt-6 border-t-[1px] border-t-[#3f3r45]',
+  footerDiv: "md:flex-row flex-col mb-8 w-full",
+  footerDiv2 :'flex-1 flex flex-col justify-start mr-10',
+  footerDiv3 :'flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10',
+  footerDiv4:'flex flex-col ss:my-0 my-4 min-w-[150px]',
+  footerDiv5: 'md:mt-0 mt-6',
+  footerDivP:'font-poppins font-normal text-center text-[18px] leading-[27px] text-white',
+  footorImg:'w-[266px] h-[72px] object-contain',
+  footerTitle:'font-poppins font-medium text-[18px] leading-[27px] text-white',
+  footerP:'mt-4 max-w-[310px]',
+  footerListItem:'font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer',
+  footerList: 'list-none mt-4',
+  footerDivImg:'w-[21px] h-[21px] object-contain cursor-pointer ',
 };
 
 export const layout = {
