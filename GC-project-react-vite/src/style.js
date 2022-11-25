@@ -21,7 +21,7 @@ const styles = {
   flexRowCol: "flex md:flex-row flex-col",
   flexrowcenter: "flex flex-row items-center",
   flexcol: "flex-1 flex-col",
-  flexcol1: "flex flex-col",
+  flexcol1: "flex flex-col flex-1 ",
   flex1: "flex-1",
   flexrow: "flex flex-row",
 
@@ -152,6 +152,11 @@ const styles = {
     clientsDiv1:'flex-wrap w-full',
     clientsDiv2:'flex-1 sm:min-w-[192px] min-w-[120px]',
     clientImg:'sm:w-[192px] w-[100px] object-contain',
+
+    // CTA
+   sectionCTA: 'sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow ',
+   pCTA:'max-w-[470px] mt-5',
+   divCTA :'sm:ml-10 ml-0 sm:mt-0 mt-10',
 
 };
 
