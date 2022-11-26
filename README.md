@@ -1,6 +1,8 @@
 ## React-Tailwind
 
-Small project with Tailwind CSS  and React JS.
-Deployment with Firebase.
+💠 Small project with Tailwind CSS  and React JS.
+💠 Deployment with Firebase.
 
-:link: Go to the app URL 
+🌐 Go to the app URL 
+
+https://gulcanc-react-tailwind.web.app/
