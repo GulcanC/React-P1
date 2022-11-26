@@ -1,3 +1,6 @@
-# React-P1
+## React-Tailwind
 
-I have been working on this project, REACT, TAILWIND
+Small project with Tailwind CSS  and React JS.
+Deployment with Firebase.
+
+:link: Go to the app URL 
