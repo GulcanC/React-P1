@@ -7,3 +7,5 @@
 🌐 Go to the app URL 
 
 https://gulcanc-react-tailwind.web.app/
+
+nmp run dev
